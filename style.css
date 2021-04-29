@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-color: #f3bda1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  text-shadow: 5px 0px #868e96;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#outside-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+}
+
+#outside-help {
+  color: black;
+  font-size: 12pt;
+  text-align: center;
+  padding: 20px;
+}
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #fcecdd;  
+}
+
+#inside-title {
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 5px 0px #868e96;
+}
+.reward{
+  color: black;
+}
+.inside-pic {
+  width: 5rem;
+  height: 5rem;
+  margin: 0;
+  
+}
+#dp-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+}
+
+#message {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+button {
+  background: white;
+}
